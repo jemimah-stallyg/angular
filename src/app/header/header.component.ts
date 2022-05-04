@@ -1,5 +1,5 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
-import { features } from 'process';
+// import { feature } from 'process';
 // import { EventEmitter } from 'stream';
 
 @Component({
@@ -10,7 +10,7 @@ import { features } from 'process';
 export class HeaderComponent implements OnInit {
   featureSelected = new EventEmitter<string>();
 
-  onSelect(feature: string){
+  onSelect(feature: string) {
     this.featureSelected.emit(feature);
     
     
