@@ -23,7 +23,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
     RecipesDetailComponent,
     RecipesItemComponent,
     ShoppingListComponent,
-    ShoppingEditComponent,
+    ShoppingEditComponent
 
 
 
