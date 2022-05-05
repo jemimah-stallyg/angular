@@ -1,3 +1,4 @@
+import { style } from '@angular/animations';
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 // import { EventEmitter } from 'stream';
 import { Recipes } from '../recipe.model'
@@ -10,8 +11,10 @@ import { Recipes } from '../recipe.model'
 export class RecipesListComponent implements OnInit {
   @Output() recipeWasSelected = new EventEmitter<Recipes>();
   recipes: Recipes[]=[
-    new Recipes('A test recipe','this is simply a test','https://images.immediate.co.uk/production/volatile/sites/30/2020/05/aubergine-curry-d843822.jpg?quality=90&resize=900,836'),
-    new Recipes('Another test recipe','this is simply a test','https://images.immediate.co.uk/production/volatile/sites/30/2020/05/aubergine-curry-d843822.jpg?quality=90&resize=900,836')
+    new Recipes('crispy fried chicken','',
+    'https://th.bing.com/th/id/OIP.OajGreIHuqBpGP9f53gMFwHaE7?pid=ImgDet&rs=1'),
+    new Recipes('Mojito Cocktail','',
+    'https://wallsdesk.com/wp-content/uploads/2017/01/Mojito-Wallpapers-HD.jpg')
   ];
 
   constructor() { }

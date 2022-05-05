@@ -8,13 +8,13 @@ import { Recipes } from './recipe.model';
   styleUrls: ['./recipes.component.css']
 })
 export class RecipesComponent implements OnInit {
-  SelectedRecipe !: Recipes;
+  selectedRecipe !: Recipes;
 
   constructor() { 
    
   }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }
